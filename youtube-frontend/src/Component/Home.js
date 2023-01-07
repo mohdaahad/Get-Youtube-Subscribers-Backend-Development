@@ -14,17 +14,17 @@ const Home = () => {
 // Fetching Data from API
 
   const allSubData = async () => {
-    let { data } = await axios.get("https://youtube-backend-dz4b.onrender.com/subscribers");
+    let { data } = await axios.get("https://youtube-backend-buds.onrender.com/subscribers");
     setSubs(data);
   };
 
   const allSubNames = async () => {
-    let { data } = await axios.get("https://youtube-backend-dz4b.onrender.com/subscribers/names");
+    let { data } = await axios.get("https://youtube-backend-buds.onrender.com/subscribers/names");
     setNames(data);
   };
 
   const allSubIds = async () => {
-    let { data } = await axios.get(`https://youtube-backend-dz4b.onrender.com/subscribers/${id}`);
+    let { data } = await axios.get(`https://youtube-backend-buds.onrender.com/subscribers/${id}`);
     setIds(data);
   };
 
