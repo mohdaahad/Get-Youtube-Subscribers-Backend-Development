@@ -3,7 +3,7 @@
 
 Get Youtube Subscribers
 
-"https://youtube-frontend-42wd.onrender.com"
+"https://youtube-subscribers-kdzz.onrender.com/"
 
  Click on All Subscriber to get data of all Subscribers.
 
@@ -15,14 +15,11 @@ Get Youtube Subscribers
 
 This is a full stack MERN project on  Get Youtube Subscribers.
 
-Code for front-end is given in :
+Code for frontend and backend is given in :
 
-"https://github.com/mayuryalij/youtube-frontend"
+"https://github.com/mayuryalij/Get-Youtube-Subscribers-App"
  
 
-Code for back-end server is given in :
-
-"https://github.com/mayuryalij/youtube-backend"
 
 Technology used:
 
@@ -41,7 +38,7 @@ Database: MongoDB
 Clone the project
 
 ```bash
-  git clone https://github.com/mayuryalij/youtube-frontend.git
+  git clone https://github.com/mayuryalij/Get-Youtube-Subscribers-App.git
 ```
 
 Go to the project directory
@@ -75,7 +72,7 @@ Start the server
 Clone the project
 
 ```bash
-  git clone https://github.com/mayuryalij/youtube-backend.git
+  git clone https://github.com/mayuryalij/Get-Youtube-Subscribers-App.git
 ```
 
 Go to the project directory
@@ -111,7 +108,7 @@ Start the server
 This Project is live: 
 
 
-  Frontend: "https://youtube-frontend-42wd.onrender.com"
+  Frontend: "https://youtube-subscribers-kdzz.onrender.com/"
 
-  Backend:  "https://youtube-backend-dz4b.onrender.com/subscribers"
+  Backend:  "https://youtube-backend-buds.onrender.com/subscribers"
 
