@@ -1,114 +1,85 @@
+# Get Youtube Subscribers API Application
 
-# Project Title
+## Project Description
 
-Get Youtube Subscribers
+Get Youtube Subscribers is a full stack MERN project that allows users to retrieve data about YouTube subscribers. The application provides functionality to fetch information about all subscribers, view subscriber names and channels, and search for details of a specific subscriber.
 
-"https://youtube-subscribers-kdzz.onrender.com/"
+The code for the frontend and backend can be found at:
 
- Click on All Subscriber to get data of all Subscribers.
+Frontend: [https://github.com/mayuryalij/Get-Youtube-Subscribers-App](https://github.com/mayuryalij/Get-Youtube-Subscribers-App)
 
- Click on Subscriber names and channel to get all the names and channel subscribed.
+## Technologies Used
 
- Now, enter id of subscriber in search box and click search to get detail of that specific subscriber.
+**Frontend**: HTML, CSS, JavaScript, React Js, Bootstrap
 
-# Project Description
+**Backend**: Node.js, Express.js
 
-This is a full stack MERN project on  Get Youtube Subscribers.
+**Database**: MongoDB
 
-Code for frontend and backend is given in :
+## Running the Application Locally (Frontend)
 
-"https://github.com/mayuryalij/Get-Youtube-Subscribers-App"
- 
-
-
-Technology used:
-
-Frontend: HTML, CSS, Javascript, React Js, Bootstrap
-
-Backend: Node Js, Express Js
-
-Database: MongoDB
-
-
-
-
-
-## Run Locally for Frontend
-
-Clone the project
+1. Clone the project:
 
 ```bash
-  git clone https://github.com/mayuryalij/Get-Youtube-Subscribers-App.git
+git clone https://github.com/mayuryalij/Get-Youtube-Subscribers-App.git
 ```
 
-Go to the project directory
+2. Navigate to the project directory:
 
 ```bash
-  cd youtube-frontend
+cd youtube-frontend
 ```
 
-Install dependencies
+3. Install the dependencies:
 
 ```bash
-  npm install
+npm install
 ```
 
-Start the server
+4. Start the server:
 
 ```bash
-  npm run start
-
- Click on All Subscriber to get data of all Subscribers.
-
- Click on Subscriber names and channel to get all the names and channel subscribed.
-
- Now, enter id of subscriber in search box and click search to get detal of that specific subscriber.
+npm run start
 ```
 
+5. Access the application by visiting [http://localhost:3000/](http://localhost:3000/).
 
+## Running the Application Locally (Backend)
 
-## Run Locally for Backend
-
-Clone the project
+1. Clone the project:
 
 ```bash
-  git clone https://github.com/mayuryalij/Get-Youtube-Subscribers-App.git
+git clone https://github.com/mayuryalij/Get-Youtube-Subscribers-App.git
 ```
 
-Go to the project directory
+2. Navigate to the project directory:
 
 ```bash
-  cd youtube-backend
+cd youtube-backend
 ```
 
-Install dependencies
+3. Install the dependencies:
 
 ```bash
-  npm install
+npm install
 ```
 
-Start the server
+4. Create the database:
+
+   - Install MongoDB on your local machine.
+   - Run `createDatabase.js`. This will create the "Subscriber" collection in your local MongoDB instance.
+
+5. Start the server:
 
 ```bash
- create database please install mongodb in local machine
-
- Then run createDatabase.js. 
- 
- This will create Subscriber Collection in local machine.
-
- run node ./src/index.js this will Start the Server.
-
- Test the API in Postman.
+node ./src/index.js
 ```
 
-
+6. Test the API using Postman or a similar tool.
 
 ## Deployment
 
-This Project is live: 
+This project is live at:
 
-
-  Frontend: "https://youtube-subscribers-kdzz.onrender.com/"
-
-  Backend:  "https://youtube-backend-buds.onrender.com/subscribers"
-
+- Frontend: [https://youtube-subscribers-kdzz.onrender.com/](https://youtube-subscribers-kdzz.onrender.com/)
+- Backend: [https://youtube-backend-buds.onrender.com/subscribers](https://youtube-backend-buds.onrender.com/subscribers)
