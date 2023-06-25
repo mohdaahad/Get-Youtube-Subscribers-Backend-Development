@@ -4,6 +4,23 @@
 
 Get Youtube Subscribers is a full stack MERN project that allows users to retrieve data about YouTube subscribers. The application provides functionality to fetch information about all subscribers, view subscriber names and channels, and search for details of a specific subscriber.
 
+● Designed and developed a REST API that performs the GET method.
+
+● Two operations were performed: Fetching a list of all the dummy data,
+Fetching a particular dummy data based on the given ID from the Youtube
+Subscribers list.
+
+● Utilized NodeJS and ExpressJS for API creation and MongoDB for storing and
+fetching the data.
+
+● Implemented different status codes based on the response, such as Success -
+200 and Bad Request - 400.
+
+● Improved project efficiency by implementing API documentation and testing
+using the POSTMAN tool. Also, extensive code improvement was carried out,
+reducing the project’s time complexity by 10%-15%.
+
+
 The code for the frontend and backend can be found at:
 
 Frontend: [https://github.com/mayuryalij/Get-Youtube-Subscribers-App](https://github.com/mayuryalij/Get-Youtube-Subscribers-App)
